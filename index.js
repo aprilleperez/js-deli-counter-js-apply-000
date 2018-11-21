@@ -1,9 +1,22 @@
 var katzDeli = [];
 
-function takeANumber(katzDeli, name) {
-  katzDeli.push(`${name}`)
-  return (`Welcome, ${name}. You are number ${katzDeli.length} in line.`)
+// function takeANumber(katzDeli, name) {
+//   katzDeli.push(`${name}`)
+//   return (`Welcome, ${name}. You are number ${katzDeli.length} in line.`)
+// }
+var  = ;
+
+function takeANumber(katzDeli) {
+  let i = 0;
+  i++;
+  return (`You are number ${i}.`)
 }
+
+// takeANumber(array) -> 1
+// takeANumber(array) -> 2
+// nowServing(array) -> 1
+// nowServing(array)  -> 2
+// takeANumber(array) -> 3
 
 function nowServing(katzDeli) {
   let i = 0;
@@ -13,9 +26,7 @@ function nowServing(katzDeli) {
 
   if (katzDeli.length === 0) {
     return ("There is nobody waiting to be served!");
-  }
-
-  else {
+  } else {
     return (`Currently serving ${katzDeli.shift()}.`);
   }
 }
